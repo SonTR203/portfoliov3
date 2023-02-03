@@ -9,9 +9,26 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
-        <section className="bg-blue-700 h-screen">
-          <h1>Hello</h1>
+      <main className="bg-white px-10">
+        <section className="h-screen">
+          <nav className="py-10 mb-12 flex justify-between">
+            <h className="text-xl">Made by Son</h>
+            <ul className="flex items-center">
+              <li>
+                <a
+                  href="#"
+                  className="bg-gradient-to-r bg-slate-800 px-4 py-2 rounded text-white">
+                  Resume
+                </a>
+              </li>
+              <li>
+                <a href="#"></a>
+              </li>
+              <li>
+                <a href="#"></a>
+              </li>
+            </ul>
+          </nav>
         </section>
       </main>
     </>
