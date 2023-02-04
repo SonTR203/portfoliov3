@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { Image } from "next/image";
 
 export default function Home() {
   return (
@@ -9,15 +10,14 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="bg-white px-10">
-        <section className="h-screen">
-          <nav className="py-10 mb-12 flex justify-between">
-            <h className="text-xl">Made by Son</h>
+      <main className="bg-white">
+        <section className="h-screen w-screen px-10 bg-neutral-900">
+          <nav className="py-10 mb-12 flex justify-end">
             <ul className="flex items-center">
               <li>
                 <a
                   href="#"
-                  className="bg-gradient-to-r bg-slate-800 px-4 py-2 rounded text-white">
+                  className="bg-gradient-to-r bg-white px-4 py-2 rounded text-gray-900">
                   Resume
                 </a>
               </li>
@@ -29,10 +29,12 @@ export default function Home() {
               </li>
             </ul>
           </nav>
-          <div className="text-center p-3">
-            <h2 className="text-5xl py-2 ">Son Tran</h2>
-            <h3 className="text-xl py-2">Web and Mobile Developer</h3>
-            <p className="text-md py-5 leading-8 text-gray-800">
+          <div className="text-center p-3 text-white">
+            <h2 className="text-5xl py-2 text-white">Son Tran</h2>
+            <h3 className="text-xl py-2 text-white">
+              Web and Mobile Developer
+            </h3>
+            <p className="text-md py-5 leading-8 text-white">
               As an individual with a passion for technology, I bring a unique
               blend of technical savvy and creative problem solving to any
               project. I am always open to learning new things and taking on new
@@ -41,6 +43,15 @@ export default function Home() {
               enthusiasm and a desire to find the most efficient and enjoyable
               solutions.
             </p>
+          </div>
+          <div className="relative">
+            {/* <Image src={""} layout="fill" /> */}
+          </div>
+        </section>
+        <section className="h-screen">
+          <div>
+            <h3 className="text-3xl py-1">My projects</h3>
+            <p></p>
           </div>
         </section>
       </main>
