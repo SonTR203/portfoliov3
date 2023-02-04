@@ -3,7 +3,7 @@ import Introduction from "./Introduction";
 
 const Hero = () => {
   return (
-    <section className="h-screen w-screen px-10 bg-neutral-900">
+    <section className="h-screen">
       <nav className="py-10 mb-12 flex justify-end">
         <ul className="flex items-center">
           <li>
