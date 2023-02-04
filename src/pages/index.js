@@ -1,8 +1,8 @@
-import ClientProjects from "@/components/ClientProjects";
-import Hero from "@/components/Hero";
-import MyProjects from "@/components/MyProjects";
-import MyServices from "@/components/MyServices";
-import Navbar from "@/components/Navbar";
+import ClientProjects from "@/components/sections/ClientProjects";
+import Hero from "@/components/sections/Hero";
+import MyProjects from "@/components/sections/MyProjects";
+import MyServices from "@/components/sections/MyServices";
+import Navbar from "@/components/utils/Navbar";
 
 export default function Home() {
   return (
