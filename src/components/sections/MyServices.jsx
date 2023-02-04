@@ -1,4 +1,5 @@
 import React from "react";
+import SkillCard from "../utils/SkillCard";
 
 const MyServices = () => {
   return (
@@ -6,6 +7,7 @@ const MyServices = () => {
       <div>
         <h3 className="text-3xl py-1 text-white">Services I offer</h3>
         <p></p>
+        <SkillCard />
       </div>
     </section>
   );
