@@ -6,7 +6,7 @@ const ClientProjects = () => {
   return (
     <section className="h-auto">
       <div>
-        <h3 className="text-3xl py-1 text-white">Client projects</h3>
+        <h3 className="text-4xl py-1 text-white">Client projects</h3>
         <div>
           <ClientProjectCard />
           <ClientProjectCard />
