@@ -8,7 +8,6 @@ const AboutMe = () => {
       <h3 className="text-4xl py-1 text-white">About me</h3>
       <Introduction />
       <div>
-        <h3 className="text-xl py-1 text-white">What I do</h3>
         <SkillCard
           cardTitle={"Web development"}
           cardDescription={
