@@ -1,0 +1,28 @@
+import React from "react";
+import SkillCard from "../utils/SkillCard";
+import DividerLine from "../utils/DividerLine";
+
+const Skills = () => {
+  return (
+    <section className="h-auto my-48 ">
+      <DividerLine />
+      <h3 className="text-4xl py-1 text-white">Skills</h3>
+      <div>
+        <SkillCard
+          cardTitle={"Web development"}
+          cardDescription={
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, quo?"
+          }
+        />
+        <SkillCard
+          cardTitle={"Mobile development"}
+          cardDescription={
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, quo?"
+          }
+        />
+      </div>
+    </section>
+  );
+};
+
+export default Skills;

@@ -4,6 +4,7 @@ import MyProjects from "@/components/sections/MyProjects";
 import AboutMe from "@/components/sections/AboutMe";
 import Navbar from "@/components/utils/Navbar";
 import Head from "next/head";
+import Skills from "@/components/sections/Skills";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <Navbar />
         <Hero />
         <AboutMe />
+        <Skills />
         <ClientProjects />
         <MyProjects />
       </main>
