@@ -16,7 +16,12 @@ const Projects = () => {
             description={
               "A mobile app for tenants of a property management company in Ottawa to connect with the local neighborhood, buy and sell items, get rewards and more."
             }
-            technologies={["React Native", "Firebase", "Google Analytics"]}
+            technologies={[
+              "React Native",
+              "Expo",
+              "Firebase",
+              "Google Analytics",
+            ]}
           />
           <ClientProjectCard
             title={"Smart Tenant Admin Portal"}

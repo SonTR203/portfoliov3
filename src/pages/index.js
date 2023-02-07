@@ -15,13 +15,15 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className=" px-8 bg-neutral-900">
+      <main className=" px-8 bg-neutral-900 flex justify-center">
         {/* <ScrollProgressBar /> */}
-        <Navbar />
-        <Hero />
-        <AboutMe />
-        <Skills />
-        <Projects />
+        <div className=" max-w-5xl">
+          <Navbar />
+          <Hero />
+          <AboutMe />
+          <Skills />
+          <Projects />
+        </div>
       </main>
     </>
   );
