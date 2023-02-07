@@ -5,6 +5,7 @@ import TechnologyChip from "./TechnologyChip";
 const ClientProjectCard = ({
   img,
   title = "Client Project Card",
+  role,
   description,
   technologies = [],
 }) => {
@@ -15,6 +16,7 @@ const ClientProjectCard = ({
         {img ? img : <ImgPlaceholder />}
         {/* Project name */}
         <p className="my-3 text-white text-2xl">{title}</p>
+        <p className="mb-3 text-white text-lg">Role: {role}</p>
         {/* Project description */}
         <p className="text-white text-md">{description}</p>
         {/* Tech stack for the project */}

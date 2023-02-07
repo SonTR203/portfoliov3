@@ -12,14 +12,30 @@ const Projects = () => {
         <div>
           <ClientProjectCard
             title={"Smart Tenant Mobile App"}
+            role={"Full Stack Developer"}
             description={
               "A mobile app for tenants of a property management company in Ottawa to connect with the local neighborhood, buy and sell items, get rewards and more."
             }
             technologies={["React Native", "Firebase", "Google Analytics"]}
           />
-          <ClientProjectCard title={"Smart Tenant Admin Portal"} />
-          <ClientProjectCard />
-          <ClientProjectCard />
+          <ClientProjectCard
+            title={"Smart Tenant Admin Portal"}
+            role={"Full Stack Developer"}
+            description={
+              "A mobile app for tenants of a property management company in Ottawa to connect with the local neighborhood, buy and sell items, get rewards and more."
+            }
+            technologies={["ReactJS", "Firebase", "Redux"]}
+          />
+          <ClientProjectCard
+            title="SAGE Project - Carpenters Registry in Dominica"
+            role={"Back End Developer"}
+            technologies={["NextJS", "AWS Amplify"]}
+          />
+          <ClientProjectCard
+            title="ORC Sports management web app"
+            role={"Full Stack Developer"}
+            technologies={["NextJS", "AWS Amplify", "AWS SES", "DynamoDB"]}
+          />
         </div>
       </div>
     </section>
