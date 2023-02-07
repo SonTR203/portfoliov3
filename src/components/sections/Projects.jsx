@@ -3,12 +3,12 @@ import ClientProjectCard from "../utils/ClientProjectCard";
 import DividerLine from "../utils/DividerLine";
 import ImgPlaceholder from "../utils/ImgPlaceholder";
 
-const ClientProjects = () => {
+const Projects = () => {
   return (
     <section className="h-auto">
       <div>
         <DividerLine />
-        <h3 className="text-4xl py-1 text-white">Client projects</h3>
+        <h3 className="text-4xl py-1 text-white">Projects</h3>
         <div>
           <ClientProjectCard />
           <ClientProjectCard />
@@ -19,4 +19,4 @@ const ClientProjects = () => {
   );
 };
 
-export default ClientProjects;
+export default Projects;

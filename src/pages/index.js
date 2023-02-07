@@ -1,6 +1,5 @@
-import ClientProjects from "@/components/sections/ClientProjects";
+import Projects from "@/components/sections/Projects";
 import Hero from "@/components/sections/Hero";
-import MyProjects from "@/components/sections/MyProjects";
 import AboutMe from "@/components/sections/AboutMe";
 import Navbar from "@/components/utils/Navbar";
 import Head from "next/head";
@@ -22,8 +21,7 @@ export default function Home() {
         <Hero />
         <AboutMe />
         <Skills />
-        <ClientProjects />
-        <MyProjects />
+        <Projects />
       </main>
     </>
   );
