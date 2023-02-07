@@ -3,7 +3,7 @@ import Head from "next/head";
 
 const Navbar = () => {
   return (
-    <nav className="py-10 mb-12 flex justify-end">
+    <nav className="py-8 px-10 mb-12 flex justify-end fixed w-screen left-0 top-0">
       <ul className="flex items-center">
         <li>
           <a
