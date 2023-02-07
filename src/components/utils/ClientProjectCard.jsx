@@ -1,5 +1,6 @@
 import React from "react";
 import ImgPlaceholder from "./ImgPlaceholder";
+import TechnologyChip from "./TechnologyChip";
 
 const ClientProjectCard = ({
   img,
@@ -7,7 +8,7 @@ const ClientProjectCard = ({
   description,
 }) => {
   return (
-    <div className="my-20 py-3">
+    <div className="my-20 py-3 max-w-xl">
       <div>
         {/* Project Img */}
         <ImgPlaceholder />
@@ -20,7 +21,9 @@ const ClientProjectCard = ({
           porro natus.
         </p>
         {/* Tech stack for the project */}
-        <div></div>
+        <div className="mt-2">
+          <TechnologyChip content={"ReactJS"} />
+        </div>
       </div>
     </div>
   );
