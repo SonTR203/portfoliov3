@@ -5,6 +5,7 @@ import AboutMe from "@/components/sections/AboutMe";
 import Navbar from "@/components/utils/Navbar";
 import Head from "next/head";
 import Skills from "@/components/sections/Skills";
+import ScrollProgressBar from "@/components/utils/ScrollProgressBar";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className=" px-8 bg-neutral-900">
+        {/* <ScrollProgressBar /> */}
         <Navbar />
         <Hero />
         <AboutMe />
