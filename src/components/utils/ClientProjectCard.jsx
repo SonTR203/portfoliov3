@@ -14,11 +14,11 @@ const ClientProjectCard = ({
         {/* Project Img */}
         {img ? img : <ImgPlaceholder />}
         {/* Project name */}
-        <p className="my-3 text-white text-xl">{title}</p>
+        <p className="my-3 text-white text-2xl">{title}</p>
         {/* Project description */}
-        <p className="text-white">{description}</p>
+        <p className="text-white text-md">{description}</p>
         {/* Tech stack for the project */}
-        <div className="mt-2">
+        <div className="mt-4 flex flex-row flex-wrap">
           {technologies.map((tech) => {
             return <TechnologyChip content={tech} />;
           })}
