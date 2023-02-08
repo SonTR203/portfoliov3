@@ -17,7 +17,7 @@ export default function Home() {
       </Head>
       <main className=" px-8 bg-neutral-900 flex justify-center">
         {/* <ScrollProgressBar /> */}
-        <div className=" max-w-4xl">
+        <div className="max-w-4xl">
           <Navbar />
           <Hero />
           <AboutMe />

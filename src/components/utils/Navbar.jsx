@@ -3,20 +3,16 @@ import Head from "next/head";
 
 const Navbar = () => {
   return (
-    <nav className="py-8 px-10 mb-12 flex justify-end fixed w-screen left-0 top-0">
-      <ul className="flex items-center">
-        <li>
-          <a
-            href="#"
-            className="bg-gradient-to-r bg-white px-4 py-2 rounded text-gray-900">
-            Resume
-          </a>
+    <nav className="py-8 px-10 mb-12 flex justify-center fixed w-screen left-0 top-0">
+      <ul className="flex items-center w-full justify-center gap-8">
+        <li className=" text-white text-lg">
+          <a href="#">About me</a>
         </li>
-        <li>
-          <a href="#"></a>
+        <li className=" text-white text-lg">
+          <a href="#">Projects</a>
         </li>
-        <li>
-          <a href="#"></a>
+        <li className=" text-white text-lg">
+          <a href="#">Blog posts</a>
         </li>
       </ul>
     </nav>

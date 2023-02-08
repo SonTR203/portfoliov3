@@ -9,7 +9,7 @@ const Projects = () => {
       <div>
         <DividerLine />
         <h3 className="text-4xl py-1 text-white">Projects</h3>
-        <div>
+        <div className="flex flex-col sm:flex-row flex-wrap justify-between">
           <ClientProjectCard
             title={"Smart Tenant Mobile App"}
             role={"Full Stack Developer"}
