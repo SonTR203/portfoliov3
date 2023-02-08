@@ -8,21 +8,27 @@ const ClientProjectCard = ({
   role,
   description,
   technologies = [],
+  reverse,
 }) => {
   return (
-    <div className="my-20 py-3 max-w-md">
+    <div
+      className={`my-20 py-3 w-full flex flex-col md:${
+        reverse ? `flex-row-reverse` : `flex-row`
+      }`}>
       {/* Project Img */}
       {img ? img : <ImgPlaceholder />}
-      {/* Project name */}
-      <p className="my-3 text-white text-2xl">{title}</p>
-      <p className="mb-3 text-white text-lg">Role: {role}</p>
-      {/* Project description */}
-      <p className="text-white text-md">{description}</p>
-      {/* Tech stack for the project */}
-      <div className="mt-4 flex flex-row flex-wrap">
-        {technologies.map((tech) => {
-          return <TechnologyChip content={tech} />;
-        })}
+      <div className="md:w-1/2 md:ml-10">
+        {/* Project name */}
+        <p className="my-3 text-white text-2xl">{title}</p>
+        <p className="mb-3 text-white text-lg">Role: {role}</p>
+        {/* Project description */}
+        <p className="text-white text-md">{description}</p>
+        {/* Tech stack for the project */}
+        <div className="mt-4 flex flex-row flex-wrap">
+          {technologies.map((tech) => {
+            return <TechnologyChip content={tech} />;
+          })}
+        </div>
       </div>
     </div>
   );
