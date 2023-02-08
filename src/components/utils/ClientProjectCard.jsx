@@ -12,8 +12,8 @@ const ClientProjectCard = ({
 }) => {
   return (
     <div
-      className={`my-20 py-3 w-full flex flex-col md:${
-        reverse ? `flex-row-reverse` : `flex-row`
+      className={`my-20 py-3 w-full flex flex-col ${
+        reverse ? `md:flex-row-reverse` : `md:flex-row`
       }`}>
       {/* Project Img */}
       {img ? img : <ImgPlaceholder />}

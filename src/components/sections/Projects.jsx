@@ -30,6 +30,7 @@ const Projects = () => {
               "A mobile app for tenants of a property management company in Ottawa to connect with the local neighborhood, buy and sell items, get rewards and more."
             }
             technologies={["ReactJS", "Firebase", "Redux"]}
+            reverse
           />
           <ClientProjectCard
             title="SAGE Project - Carpenters Registry in Dominica"
@@ -40,6 +41,7 @@ const Projects = () => {
             title="ORC Sports management web app"
             role={"Full Stack Developer"}
             technologies={["NextJS", "AWS Amplify", "AWS SES", "DynamoDB"]}
+            reverse
           />
         </div>
       </div>
