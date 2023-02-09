@@ -5,6 +5,8 @@ import Navbar from "@/components/utils/Navbar";
 import Head from "next/head";
 import Skills from "@/components/sections/Skills";
 import ScrollProgressBar from "@/components/utils/ScrollProgressBar";
+import HorizontalEmail from "@/components/utils/HorizontalEmail";
+import BlogPosts from "@/components/sections/BlogPosts";
 
 export default function Home() {
   return (
@@ -17,12 +19,14 @@ export default function Home() {
       </Head>
       <main className=" px-8 bg-neutral-900 flex justify-center">
         {/* <ScrollProgressBar /> */}
-        <div className="max-w-4xl">
+        <div className="max-w-6xl">
+          {/* <HorizontalEmail /> */}
           <Navbar />
           <Hero />
           <AboutMe />
           {/* <Skills /> */}
           <Projects />
+          <BlogPosts />
         </div>
       </main>
     </>

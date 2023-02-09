@@ -4,14 +4,12 @@ const Introduction = () => {
   return (
     <div className="py-3 text-white">
       <p className="text-md py-5 leading-8 text-white">
-        Hello, my name is Son Tran and I am a Full Stack Web and Mobile
-        Developer based in Ottawa, ON.
-        <br />I am an enthusiastic developer who bring an unique blend of
-        technical savvy and creative problem solving to any project. I am always
-        open to learning new things and taking on new challenges. Whether it's
-        creating a responsive website or building a feature-packed mobile app, I
-        approach every project with enthusiasm and a desire to find the most
-        efficient and enjoyable solutions.
+        I am an enthusiastic developer who bring an unique blend of technical
+        savvy and creative problem solving to any project. I am always open to
+        learning new things and taking on new challenges. Whether it's creating
+        a responsive website or building a feature-packed mobile app, I approach
+        every project with enthusiasm and a desire to find the most efficient
+        and enjoyable solutions.
       </p>
     </div>
   );
