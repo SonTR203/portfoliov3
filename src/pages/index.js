@@ -7,6 +7,7 @@ import Skills from "@/components/sections/Skills";
 import ScrollProgressBar from "@/components/utils/ScrollProgressBar";
 import HorizontalEmail from "@/components/utils/HorizontalEmail";
 import BlogPosts from "@/components/sections/BlogPosts";
+import Footer from "@/components/sections/Footer";
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
           {/* <Skills /> */}
           <Projects />
           <BlogPosts />
+          <Footer />
         </div>
       </main>
     </>

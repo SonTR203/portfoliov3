@@ -5,13 +5,13 @@ const Navbar = () => {
   return (
     <nav className="py-8 px-10 mb-12 flex justify-center fixed w-screen left-0 top-0">
       <ul className="flex items-center w-full justify-center gap-8">
-        <li className="text-white text-lg xs:text-xs text">
+        <li className="text-white xs:text-lg text-sm ">
           <a href="#about">About me</a>
         </li>
-        <li className=" text-white text-lg xs:text-xs">
+        <li className=" text-white xs:text-lg text-sm ">
           <a href="#projects">Projects</a>
         </li>
-        <li className="text-white text-lg xs:text-xs">
+        <li className="text-white xs:text-lg text-sm ">
           <a href="#blog-posts">Blog posts</a>
         </li>
       </ul>
