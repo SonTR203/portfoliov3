@@ -5,7 +5,7 @@ import Introduction from "../utils/Introduction";
 
 const AboutMe = () => {
   return (
-    <section className="h-auto my-48">
+    <section className="h-auto py-12 mb-24" id="about">
       <DividerLine />
       <h3 className="text-4xl py-1 mr-20 text-white">About me</h3>
       <Introduction />

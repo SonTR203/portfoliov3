@@ -4,7 +4,7 @@ import DividerLine from "../utils/DividerLine";
 
 const BlogPosts = () => {
   return (
-    <section className="h-auto my-48">
+    <section className="h-auto my-48" id="blog-posts">
       <DividerLine />
       <h3 className="text-4xl py-1 mr-20 text-white">Blog posts</h3>
       <div className="flex items-stretch flex-col gap-10 md:flex-row justify-between mt-8">
