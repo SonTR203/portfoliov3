@@ -12,11 +12,13 @@ const ClientProjectCard = ({
 }) => {
   return (
     <div
-      className={`my-20 py-3 w-full flex flex-col ${
+      className={`my-20 py-3 w-full flex flex-col gap-3 ${
         reverse ? `md:flex-row-reverse` : `md:flex-row`
       }`}>
       {/* Project Img */}
-      {img ? img : <ImgPlaceholder />}
+      <div className="w-full md:w-1/2 h-full">
+        {img ? img : <ImgPlaceholder />}
+      </div>
       <div className="md:w-1/2 md:ml-10">
         {/* Project name */}
         <p className="my-3 text-white text-2xl">{title}</p>
