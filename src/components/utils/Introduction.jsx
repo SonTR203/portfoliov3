@@ -3,7 +3,7 @@ import React from "react";
 const Introduction = () => {
   return (
     <div className="py-3 text-white">
-      <p className="text-md py-5 leading-8 text-white">
+      <p className="text-md text-xl py-5 leading-8 text-white">
         I am an enthusiastic developer who bring an unique blend of technical
         savvy and creative problem solving to any project. I am always open to
         learning new things and taking on new challenges. Whether it's creating
