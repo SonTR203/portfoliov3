@@ -27,7 +27,7 @@ const Projects = () => {
             role={"Full Stack Developer"}
             img={<Image src="/assets/SLPWeb.png" width="1500" height="1000" />}
             description={
-              "A mobile app for tenants of a property management company in Ottawa to connect with the local neighborhood, buy and sell items, get rewards and more."
+              "An internal admin dashboard for the company Smart Living Properties to to facilitate content management and moderation for their mobile application."
             }
             technologies={["ReactJS", "Firebase", "Redux"]}
             reverse
@@ -36,11 +36,17 @@ const Projects = () => {
             title="SAGE Project - Carpenters Registry in Dominica"
             img={<Image src="/assets/SAGE.png" width="1500" height="500" />}
             role={"Back End Developer"}
+            description={
+              "A connection platform for the people of the Dominican Republic to find carpenters to help them rebuild their homes after natural disasters. This project is made in collaboration with the Dominica State College"
+            }
             technologies={["ReactJS", "ChartJS", "Twilio", "AWS Amplify"]}
           />
           <ClientProjectCard
             title="ORC Sports management web app"
             role={"Full Stack Developer"}
+            description={
+              "A sports league management system for the Ottawa Rec Sports organization. Players can easily register for leagues as well as create their own team, while administrators have access to user-friendly tools for effectively managing the leagues."
+            }
             technologies={[
               "NextJS",
               "Tailwind CSS",
