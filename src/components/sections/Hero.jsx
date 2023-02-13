@@ -32,11 +32,13 @@ const Hero = () => {
             <FaGithub color="white" size={48} />
           </a>
         </div>
-        <button
+        <a
           style={{ animationDelay: "450ms" }}
+          href="https://drive.google.com/file/d/1VG-VJ0qQcfprmdfegDv3CvqZBUVBSU3U/view"
+          target={"_blank"}
           className="rounded p-4 bg-white text-xl opacity-0 transition-opacity duration-300 delay-300 animate-fadeIn">
           My Resume
-        </button>
+        </a>
       </div>
     </section>
   );
