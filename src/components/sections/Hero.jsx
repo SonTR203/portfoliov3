@@ -1,6 +1,6 @@
 import React from "react";
 import Introduction from "../utils/Introduction";
-import { FaLinkedin, FaGithub } from "react-icons/Fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 const Hero = () => {
   return (
     <section className="h-screen flex flex-column justify-start">

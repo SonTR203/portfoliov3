@@ -14,7 +14,12 @@ const Projects = () => {
           <ClientProjectCard
             title={"Smart Tenant Mobile App"}
             img={
-              <Image src="/assets/SLPMobile.png" width="1500" height="1000" />
+              <Image
+                alt="slp mobile"
+                src="/assets/SLPMobile.png"
+                width="1500"
+                height="1000"
+              />
             }
             role={"Full Stack Developer"}
             description={
@@ -25,7 +30,14 @@ const Projects = () => {
           <ClientProjectCard
             title={"Smart Tenant Admin Portal"}
             role={"Full Stack Developer"}
-            img={<Image src="/assets/SLPWeb.png" width="1500" height="1000" />}
+            img={
+              <Image
+                alt="slp web"
+                src="/assets/SLPWeb.png"
+                width="1500"
+                height="1000"
+              />
+            }
             description={
               "An internal admin dashboard for the company Smart Living Properties to to facilitate content management and moderation for their mobile application."
             }
@@ -34,7 +46,14 @@ const Projects = () => {
           />
           <ClientProjectCard
             title="SAGE Project - Carpenters Registry in Dominica"
-            img={<Image src="/assets/SAGE.png" width="1500" height="500" />}
+            img={
+              <Image
+                alt="sage"
+                src="/assets/SAGE.png"
+                width="1500"
+                height="500"
+              />
+            }
             role={"Back End Developer"}
             description={
               "A connection platform for the people of the Dominican Republic to find carpenters to help them rebuild their homes after natural disasters. This project is made in collaboration with the Dominica State College"
