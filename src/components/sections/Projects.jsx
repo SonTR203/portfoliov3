@@ -6,10 +6,19 @@ import Image from "next/image";
 
 const Projects = () => {
   return (
-    <section className="h-auto py-16" id="projects">
+    <section
+      className="h-auto py-16"
+      id="projects"
+      tabIndex={0}
+      aria-label="Projects section">
       <div>
         <DividerLine />
-        <h3 className="text-4xl py-1 text-white">Projects</h3>
+        <h3
+          className="text-4xl py-1 text-white"
+          tabIndex={0}
+          aria-label="Projects">
+          Projects
+        </h3>
         <div className="flex flex-col sm:flex-row flex-wrap justify-between">
           <ClientProjectCard
             title={"Smart Tenant Mobile App"}
