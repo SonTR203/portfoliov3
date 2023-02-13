@@ -9,6 +9,9 @@ const BlogPosts = () => {
       <h3 className="text-4xl py-1 mr-20 text-white">Blog posts</h3>
       <div className="flex items-stretch flex-col gap-10 md:flex-row justify-between mt-8">
         <BlogPost
+          url={
+            "https://sontranblog.hashnode.dev/how-blogging-can-step-up-your-career-as-a-developer"
+          }
           title={"How blogging can step up your career as a developer"}
           description={
             "How do blog posts have anything to do with being a developer? Well, it does. It helps ALOT. Let's find out why in the article below."
@@ -16,6 +19,9 @@ const BlogPosts = () => {
           time={4}
         />
         <BlogPost
+          url={
+            "https://sontranblog.hashnode.dev/five-essential-channels-you-should-be-listening-to-as-a-developer"
+          }
           title={
             "Five essential channels you should be listening to as a developer."
           }
