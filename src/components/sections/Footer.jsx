@@ -12,7 +12,7 @@ const Footer = () => {
         </span>
         son.nhat2k3@gmail.com
       </a>
-      <p className="text-white ml-auto w-fit">@Son Tran 2023</p>
+      <p className="text-white ml-auto w-fit">&copy;Son Tran 2023</p>
     </div>
   );
 };
