@@ -5,10 +5,11 @@ import Introduction from "../utils/Introduction";
 
 const AboutMe = () => {
   return (
-    <section className="h-auto py-16 mb-24" id="about">
+    <section className="h-auto py-16" id="about">
       <DividerLine />
       <h3 className="text-4xl py-1 mr-20 text-white">About me</h3>
       <Introduction />
+      <p className="text-3xl mb-5 text-white">Awards</p>
       <div className="flex flex-col sm:flex-row gap-4 flex-wrap">
         <InfoCard title={3} description={"Dean's Honours List"} />
         <InfoCard

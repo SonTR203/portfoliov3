@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const Projects = () => {
   return (
-    <section className="h-auto py-16 mb-24" id="projects">
+    <section className="h-auto py-16" id="projects">
       <div>
         <DividerLine />
         <h3 className="text-4xl py-1 text-white">Projects</h3>
