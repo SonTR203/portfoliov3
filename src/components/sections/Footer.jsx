@@ -23,6 +23,18 @@ const Footer = () => {
         aria-label="Made by Son Tran in 2023">
         &copy;Son Tran 2023
       </p>
+      <a
+        aria-label="Go back to beginning"
+        href="#hero"
+        className="text-white
+        opacity-0
+        pointer-events-none
+        focus:opacity-100
+        focus:pointer-events-auto
+            fixed right-0 bottom-20 bg-red-600 p-3 text-xl rounded
+            ">
+        To Top
+      </a>
     </div>
   );
 };

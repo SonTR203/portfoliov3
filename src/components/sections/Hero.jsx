@@ -2,7 +2,7 @@ import React from "react";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 const Hero = () => {
   return (
-    <section className="h-screen flex flex-column justify-start">
+    <section className="h-screen flex flex-column justify-start" id="hero">
       <div className="h-fit my-auto">
         <h2
           tabIndex={0}

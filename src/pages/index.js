@@ -20,7 +20,7 @@ export default function Home() {
       </Head>
       <main className=" px-8 bg-neutral-900 flex justify-center">
         {/* <ScrollProgressBar /> */}
-        <div className="max-w-6xl">
+        <div className="max-w-6xl flex flex-col">
           {/* <HorizontalEmail /> */}
           <Navbar />
           <Hero />
@@ -29,6 +29,17 @@ export default function Home() {
           <Projects />
           <BlogPosts />
           <Footer />
+          <a
+            tabIndex={0}
+            aria-label="Go back to beginning"
+            href="#hero"
+            className="text-white
+            hidden
+            focus:block
+            fixed right-0 bottom-20 bg-red-600 p-3 text-xl rounded
+            ">
+            To Top
+          </a>
         </div>
       </main>
     </>
