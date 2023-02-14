@@ -2,10 +2,14 @@ import React from "react";
 
 const BlogPost = ({ title, description, time, url }) => {
   return (
-    <div className="w-full md:w-5/12 flex flex-col">
+    <div
+      className="w-full md:w-5/12 flex flex-col"
+      tabIndex={0}
+      aria-label={`${title} ${time}`}>
       <a
         className="text-white text-2xl mb-3 underline"
         href={url}
+        tabIndex={`Go to blog post`}
         target="_blank">
         {title}
       </a>

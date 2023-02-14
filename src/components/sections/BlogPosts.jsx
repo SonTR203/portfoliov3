@@ -4,9 +4,18 @@ import DividerLine from "../utils/DividerLine";
 
 const BlogPosts = () => {
   return (
-    <section className="h-auto py-16" id="blog-posts">
+    <section
+      className="h-auto py-16"
+      id="blog-posts"
+      tabIndex={0}
+      aria-label={`Blog posts section`}>
       <DividerLine />
-      <h3 className="text-4xl py-1 mr-20 text-white">Blog posts</h3>
+      <h3
+        className="text-4xl py-1 mr-20 text-white"
+        tabIndex={0}
+        aria-label={`Blog posts`}>
+        Blog posts
+      </h3>
       <div className="flex items-stretch flex-col gap-10 md:flex-row justify-between mt-8">
         <BlogPost
           url={
