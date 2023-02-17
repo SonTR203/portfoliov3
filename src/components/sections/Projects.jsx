@@ -70,7 +70,7 @@ const Projects = () => {
             technologies={["ReactJS", "ChartJS", "Twilio", "AWS Amplify"]}
           />
           <ClientProjectCard
-            title="ORC Sports management web app"
+            title="ORS Sports management web app"
             role={"Full Stack Developer"}
             description={
               "A sports league management system for the Ottawa Rec Sports organization. Players can easily register for leagues as well as create their own team, while administrators have access to user-friendly tools for effectively managing the leagues."
